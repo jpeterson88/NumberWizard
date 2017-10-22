@@ -12,7 +12,7 @@ public class NumberWizard : MonoBehaviour {
 	void StartGame(){
 	
 		SetStartValues();
-		max += 1;
+		
 		print ("=======================");
 		print("Welcome to Number Wizard");
 		print ("Pick a number in a head but don't tell me");
@@ -23,6 +23,8 @@ public class NumberWizard : MonoBehaviour {
 		print("Is the number higher or lower than " + guess);
 		print("Up = higher, down = lower, return = equals.");
 		print ("=======================");	
+		
+		max += 1;
 	}
 	
 	void SetStartValues(){
